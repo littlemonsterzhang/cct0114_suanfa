@@ -1,0 +1,10 @@
+
+
+curl -X POST https://app-six-kohl.vercel.app/generate -H "Content-Type: application/json" -d '{
+  "input": {
+    "image": "https://replicate.delivery/pbxt/Ing7Fa4YMk6YtcoG1YZnaK3UwbgDB5guRc5M2dEjV6ODNLMl/cat.jpg",
+    "scale": 2,
+    "face_enhance": false
+  }
+}'
+
